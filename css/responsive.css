@@ -1,0 +1,282 @@
+/*for large devices*/
+
+@media screen and (max-width: 1200px) {
+/*	start banner */
+	.banner_title {
+		font-size: 36px;
+		line-height: 55px;
+	}
+
+	.banner_box_twp > img {
+		width: 360px;
+	}
+/* end banner */
+
+/* start featured* */
+	#featured {
+		margin-top: 100px;
+	}
+
+/* end featured */
+
+/*start analytics*/
+	.analytics_item_image > img {
+		width: 300px;
+	}
+	.analytics_heading {
+		line-height: 30px;
+		font-size: 28px;
+
+	}
+/*end analytics*/
+
+/*start test*/
+	#testiominals {
+		margin-top: 0;
+	}
+	.testiominals_item {
+		width: 300px;
+	}
+/*end test*/
+}
+	
+
+@media screen and (max-width: 992px) {
+	/* Start Nav */
+    .nav_list_item {
+        margin-left: 50px;
+    }
+    /* End Nav */
+
+    /* Start Banner */
+    .banner_title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .banner_description {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 15px 55px;
+    }
+
+    .banner_box_two > img {
+        width: 260px;
+    }
+    /* End Banner */
+    /* Start Analytics */
+    .analytics_title {
+        line-height: 55px;
+    }
+
+    .analytics_item_image > img {
+        width: 255px;
+    }
+
+    .analytics_item_content {
+        max-width: 420px;
+        margin-bottom: 100px;
+    }
+
+    .analytics_heading {
+        font-size: 20px;
+    }
+    /* End Analytics */
+
+    /* Start Testimonials */
+    .testimonials_heading {
+        font-size: 48px;
+        line-height: 65px;
+    }
+
+    .testimonials_item {
+        width: 220px;
+    }
+
+    .testimonials_item_avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonials_item_title {
+        font-size: 14px;
+        line-height: 55px;
+    }
+
+    .testimonials_item_comment {
+        font-size: 12px;
+    }
+
+    .testimonials_item_container {
+        padding: 35px;
+    }
+
+    /* End Testimonials */
+    /* Start Are You Ready */
+    #ready {
+        margin-top: 100px;
+        padding: 50px;
+    }
+
+    .ready_title {
+        font-size: 48px;
+        line-height: 65px;
+    }
+    /* End Are You Ready */
+
+    /* Start Footer */
+    .form_input {
+        max-width: 110px;
+    }
+    /* End Footer */
+
+}
+
+	
+
+/*	for medium devices*/
+
+@media screen and (max-width: 768px) {
+	/* Start Nav */
+    .banner_btn_container {
+        justify-content: space-between;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 12px 35px;
+    }
+
+    .banner_title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .banner_box_two > img {
+        width: 220px;
+    }
+    /* End Nav */
+	/*   start featured */
+	.featured_container{
+		padding: 5px 25px;
+	}
+	.featured_container_item > img{
+		width: 70px;
+		max-height: 25px;
+	}
+
+	/*	end featured*/
+	
+	/*	start anakytics*/
+	.analytics_item_image {
+		max-width: 255px;
+		margin-bottom: unset ;
+	}
+	.analytics_description {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+
+	/*end analytics	*/
+	/*start test	*/
+	.testimonials_items {
+		display: grid;
+		justify-content: center;
+
+	}
+	/*end test */
+	/*start are you ready*/
+	#ready {
+		margin-top: 40px;
+	}
+	.ready_text {
+		font-size: 18px;
+		line-height: 55px;
+	}
+	.ready_title {
+		font-size: 28px;
+		line-height: 40px;
+	}
+
+	/*end are you ready*/
+	/*	start footer*/
+	.footer_container {
+		display: grid;
+		justify-content: center;
+		text-align: center;
+
+	}
+	.footer_title {
+		margin-top: 20px;
+	}
+	/*	end footer*/
+
+	}
+	
+@media screen and (max-width: 576px) {
+	/*	start nav*/
+	nav {
+		display: grid;
+		justify-content: start;
+		margin-top: 35px !important;
+	}
+	.nav_list {
+		display: grid;
+		margin-top: 15px;
+
+
+	}
+	.nav_list_item {
+		margin-left: unset;
+	}
+	#banner {
+		margin-top: 100px;
+	}
+		.banner_box_two {
+		display: none;
+	}
+		/*end nav*/
+
+/*	start featured	*/
+
+	.featured_container_item > img {
+		width: 55px;
+	}
+/*	end featured	*/
+/*	start analytics */
+	#analytics {
+		margin-top: 100px;
+	}
+	.analytics_item {
+		display: grid;
+		justify-content: center;
+	}
+	.analytics_item_image {
+		max-width: 100%;
+		margin-bottom: 55px;
+	}
+	.analitics_item_image > img{
+		text-align: center;
+	}
+
+/*	end analytics	*/
+	/* end test */
+	.testimonials_heading {
+		font-size: 24px;
+		line-height: 44px;
+	}
+	/*end test*/
+
+}
+
+
+
+
+
